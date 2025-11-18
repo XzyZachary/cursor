@@ -12,7 +12,10 @@ curl -fsSL https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com
 
 权限问题：
 sudo chmod -R 755 ~/Library/Application\ Support/Cursor 
-
-
-
 sudo chmod -R 755 ~/.cursor/extensions
+
+
+sudo chown -R $(whoami) ~/Library/"Application Support"/Cursor
+sudo chown -R $(whoami) ~/.cursor/extensions/  
+
+
